@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    background: linear-gradient(#db7704, #851E52);
+}
+
+header {
+    background-color: linear-gradient(#db7704, #851E52);
+    height: 150px;
+}
+
+main {
+    width: 100%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+}
+
+
+a {
+    background-color: #D3560E;
+    transition: 1s all;
+}
+
+h2 {
+    padding-top: 40px;
+    border-top: 2px solid white;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+
+.lista-menu {
+    padding-top: 60px;
+    padding-right: 150px;
+    display: flex;
+    gap: 20px;
+    font-size: 10pt;
+    color: white;
+    font-style: italic;
+
+}
+
+.home {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.home:hover {
+
+    color: rgb(0, 0, 0);
+}
+
+
+.lista-menu li {
+    transition: 1s all;
+}
+
+.lista-menu li:hover {
+    transform: scale(1.1);
+}
+
+
+#titulo-cabecalho {
+
+    font-size: 30pt;
+    padding-left: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+#bloco-logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-escola {
+    z-index: 1;
+    padding-top: 10px;
+}
+
+#imagensinstrumentos {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.pianoimg {
+    width: 40%;
+    height: 600px;
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 16px;
+    border: 4px solid white;
+}
+
+.violinoimg {
+    width: 40%;
+    height: 600px;
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
+    border: 4px solid white;
+
+}
+
+#mapa-local {
+    padding-top: 50px;
+    margin: 0 auto;
+
+}
+
+.titulo-mapa {
+    font-size: 20pt;
+    color: white;
+    text-decoration: overline;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+
+}
+
+.mapa {
+    box-shadow: #F1EEE9 5px 5px,
+        #acaba9 10px 10px,
+        #7e7d7d 15px 15px,
+        #575757 20px 20px,
+        #3e3e3d 25px 25px;
+    width: 800px;
+    height: 500px;
+}
+
+#bloco-animacao {
+
+    display: flex;
+
+}
+
+.animationpiano {
+    width: 40%;
+}
+
+.sessao-aulas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cursos {
+    padding-left: 15px;
+    width: 23%;
+    height: 25%;
+    display: block;
+    float: left;
+    margin: 15px;
+    border-left: 3px solid white;
+    transition: 0.5s all;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    justify-content: center;
+
+}
+
+.cursos:hover {
+    border-radius: 35px;
+    border-left: 3px solid rgb(195, 255, 0);
+    transform: scale(1.05);
+    box-shadow: rgba(255, 254, 254, 0.19) 0px 10px 20px, rgba(255, 255, 255, 0.23) 0px 6px 6px;
+}
+
+#bloco-descricao {
+    padding-bottom: 20px;
+}
+
+#titulo-descricao {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+.paragrafo-descricao {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 12pt;
+}
+
+h4 {
+    font-size: 20pt;
+    padding-left: 40px;
+    color: white;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.rodape-guitarra {
+    background: linear-gradient(#892549, black);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-style: italic;
+    padding-bottom: 10px;
+    text-decoration: overline;
+}
+
+.logo-guitarra {
+
+    width: 10%;
+    transform: rotate(40deg);
+}
+
+#bloco-contato {
+    background-color: black;
+    color: white;
+}
+
+#rodapecontato {
+    display: flex;
+    justify-content: center;
+}
+
+.itens-contato {
+    display: inline;
+    justify-content: space-evenly;
+    padding-left: 50px;
+}
